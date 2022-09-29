@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+    <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+<body>
+  <!-- nav -->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">SS Marie Bakery</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./recipes.html">Recipes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./order.html">Order Form</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- nav -->
+  
+  <!-- add hero image -->
+  <h1>The Recipes</h1>
+  <h2>Dogs, Cats, and Small Animals</h2>
+
+  
+  <div class="tab">
+    <button class="tablinks" onclick="openCity(event, 'DT')">Dog Treats</button>
+    <button class="tablinks" onclick="openCity(event, 'DBC')">Dog Birthday Cakes</button>
+    <button class="tablinks" onclick="openCity(event, 'CT')">Cat Treats</button>
+    <button class="tablinks" onclick="openCity(event, 'SA')">Small Animal</button>
+    <button class="tablinks" onclick="openCity(event, 'OP')">Other Products</button>
+  </div>
+  
+  <div id="DT" class="tabcontent" style="display: none;">
+    <h3>Mango Chunk with Strawberry</h3>
+    <p>Chopped rolled oats, mango chunks, flaxseed meal, strawberry and apple puree, egg.</p>
+    <h3>Berry Pie Bites</h3>
+    <p>Whole rolled oats, whole blueberries, raspberries, pitted cherries, flaxseed meal, egg, orange zest and juice.</p>
+    <h3>Pumpkin Peanut Cookie</h3>
+    <p>Chopped rolled oats, xylitol-free peanut butter, pumpkin purée, flaxseed meal, egg, cinnamon.</p>
+    <h3>Maple Bacon Puppy Pancakes</h3>
+    <p>Coconut flour, flaxseed meal, whole rolled oats, apple puree, egg, maple syrup, bacon bits.</p>
+  </div>
+  
+  <div id="DBC" class="tabcontent" style="display: none;">
+    <h3>Confetti Bundt Cake</h3>
+    <p>Coming Soon!</p>
+    <h3>Peanut Butter Bundt Cake</h3>
+    <p>Coming Soon!</p>
+    <h3>Strawberry Bundt Cake</h3>
+    <p>Coming Soon!</p>
+    <h3>Berry Bundt Cake</h3>
+    <p>Coming Soon!</p>
+  </div>
+  
+  <div id="CT" class="tabcontent" style="display: none;">
+    <h3>Cheesy Chicken Yogurt Drops</h3>
+    <p>Low fat Greek yogurt, shredded chicken, cheese, sweet potato, egg, catnip</p>
+    <h3>The Leftover Special</h3>
+    <p>Sweet potato, ground turkey, rolled oats, cheese, egg, cranberries, catnip</p>
+    <h3>Chicken Bacon Bites</h3>
+    <p>Sweet potato, shredded chicken, bacon bits, egg, catnip</p>
+  </div>
+  
+  <div id="SA" class="tabcontent" style="display: none;">
+    <h3>Banana Carrot Mango</h3>
+    <p>Greek yogurt, mashed banana, alfalfa hay, mango chunks, carrot shreds</p>
+    <h3>Broccoli Orange Banana</h3>
+    <p>Rolled oats, alfalfa hay, mashed bananas, broccoli florets, orange and zest</p>
+    <h3>Cucumber Orange Spinach</h3>
+    <p>Greek yogurt, alfalfa hay, spinach, cucumber, orange and zest</p>
+    <h3>Strawberry Broccoli Carrot</h3>
+    <p>Rolled oats, alfalfa hay, strawberry and apple purée, broccoli florets, carrot shreds</p>
+  </div>
+  
+  <div id="OP" class="tabcontent" style="display: none;">
+    <h3>Collar Bandanas</h3>
+    <p>Loop-through for collars and scrunchie forms, in five different sizes and any number of patterns. <br> Here's a quick look - customs are also available!</p>
+    <h3>Bow- and Neck-Ties</h3>
+    <p>Elastic loops to thread onto a collar and scrunchie forms, in five different sizes and any number of patterns. <br> Here's a quick look - customs are also available!</p>
+    <h3>Snuffle Mats</h3>
+    <p>Treat hiding pockets, ruffles, and twists to make your pet use their nose! <br> Available in three different sizes and customizable color options.</p>
+  </div>
+  
+  
+
+
+
+
+  <script>
+  function openCity(evt, cityName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+      tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+      tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " active";
+  }
+  </script>
+  
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>

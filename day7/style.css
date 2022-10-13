@@ -1,0 +1,85 @@
+.container1 {
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(93,93,93,1) 49%, rgba(181,181,181,1) 100%);
+    width: 100%;
+    color: ghostwhite;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.jumbotron {
+    background-image: url(./Concert_hall_rock_concert-1366x668.jpg);
+    background-size: cover;
+    height: 900px;
+    padding-top: 135px;
+}
+
+.jumbotext1 {
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 80px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    color: ghostwhite;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: small-caps;
+    text-transform: none;
+    text-align: center;
+    text-shadow: 0px 0px 3px #000000;
+}
+
+.jumbotext2 {
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 60px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    color: ghostwhite;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: small-caps;
+    text-transform: none;
+    text-align: center;
+    text-shadow: 0px 0px 3px #000000;
+}
+
+.title1{
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 80px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    color: ghostwhite;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    text-align: center;
+}
+
+h2 {
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 40px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    color: ghostwhite;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+}
+
+h3 {
+    text-align: center;
+}
+
+.venue {
+    height: 500px;
+}
+
+body {
+    background: rgb(181,181,181);
+    background: linear-gradient(0deg, rgba(181,181,181,1) 0%, rgba(93,93,93,1) 25%, rgba(0,0,0,1) 50%);
+}

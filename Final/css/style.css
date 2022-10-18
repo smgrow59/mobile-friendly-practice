@@ -7,7 +7,7 @@
     overflow: hidden;
     border: 1px solid #ccc;
     background-color: #f1f1f1;
-  }
+}
   
 
 .tab button {
@@ -19,17 +19,17 @@
     padding: 14px 16px;
     transition: 0.3s;
     font-size: 17px;
-  }
+}
   
  
 .tab button:hover {
     background-color: #ddd;
-  }
-  
+}
+
  
 .tab button.active {
     background-color: #ccc;
-  }
+}
   
   
 .tabcontent {
@@ -37,4 +37,16 @@
     padding: 6px 12px;
     border: 1px solid #ccc;
     border-top: none;
-  }
+}
+
+.jumbo1 {
+  background-image: url();
+}
+
+.jumbo2 {
+  background-image: url();
+}
+
+.jumbo3 {
+  background-image: url();
+}

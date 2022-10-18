@@ -40,13 +40,20 @@
 }
 
 .jumbo1 {
-  background-image: url();
+  background-image: url(./media/corgi.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 1000px;
 }
 
 .jumbo2 {
-  background-image: url();
+  background-image: url(./media/two\ dogs.jpg);
+  background-size: cover;
+  width: 100%;
 }
 
 .jumbo3 {
-  background-image: url();
+  background-image: url(./media/dog\ with\ ball.jpg);
+  background-size: cover;
+  width: 100%;
 }

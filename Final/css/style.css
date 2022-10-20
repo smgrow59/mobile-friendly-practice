@@ -8,11 +8,27 @@ body {
   background: linear-gradient(90deg, rgba(112,68,0,1) 0%, rgba(154,93,0,1) 49%, rgba(176,106,0,1) 100%);
 }
 
+.nav-link {
+  color: ghostwhite;
+}
+
+.nav-link:hover {
+  color: burlywood;
+}
+
+.navbar-brand{
+  color: ghostwhite;
+}
+
+.navbar-brand:hover {
+  color: burlywood;
+}
+
 
 .tab {
     overflow: hidden;
-    border: 1px solid #ccc;
-    background-color: #f1f1f1;
+    border: 1px solid rgba(112,68,0,1);
+    background-color: rgba(154,93,0,1);
 }
   
 
@@ -29,19 +45,19 @@ body {
   
  
 .tab button:hover {
-    background-color: #ddd;
+    background-color: rgba(176,106,0,1);
 }
 
  
 .tab button.active {
-    background-color: #ccc;
+    background-color: peru;
 }
   
   
 .tabcontent {
     display: none;
     padding: 6px 12px;
-    border: 1px solid #ccc;
+    border: 1px solid peru;
     border-top: none;
 }
 
@@ -112,6 +128,7 @@ h3 {
   text-transform: none;
   text-align: center;
   text-shadow: 0px 0px 3px #000000;
+  padding-top: 30px;
 }
 
 p {
@@ -125,6 +142,12 @@ p {
   text-transform: none;
   text-align: center;
   text-shadow: 1px 1px 1px #000000;
+}
+
+.goog {
+  display: flex;
+  justify-content: center;
+  padding-top: 5%;
 }
 
 footer {
